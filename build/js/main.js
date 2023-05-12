@@ -1,8 +1,15 @@
-"use strict";
-var username = 'Max';
-console.log(username);
-var a = 12;
-var b = '6';
-var c = 2;
-console.log(a / b);
-console.log(c * b);
+'use strict'
+var myName = 'Max'
+var meaningOfLive
+var isLoading
+var album
+myName = 'John'
+meaningOfLive = 42
+isLoading = true
+album = 5150
+var sum = function (a, b) {
+  return a + b
+}
+var postId
+var isActive
+var re = /\w+/g
